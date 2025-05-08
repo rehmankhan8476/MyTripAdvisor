@@ -22,70 +22,46 @@ Built with TailwindCSS and shadcn, the app boasts a sleek, modern interface that
 Thanks to Firebase, your itineraries and preferences are stored and updated in real time, ensuring your plans are always accessible and up to date.
 
 🛠️ Tech Stack
-
 Frontend:  
-
 React + Vite: Lightning-fast development and rendering.  
 TailwindCSS: Beautiful, utility-first styling.  
 shadcn: Reusable, accessible UI components.
 
-
 AI:  
-
 Gemini AI: Natural language processing and intelligent recommendations for itineraries and hidden gems.
 
-
 Authentication:  
-
 Clerk: Secure, user-friendly authentication and account management.
-
-
 Backend:  
-
 Firebase: Real-time database for storing user data and itineraries.
-
-
 APIs:  
-
 Unsplash API: High-quality destination images.  
 Geoapify API: Geolocation, mapping, and navigation features.
-
-
-Hosting:  
-
-Vercel: Seamless deployment and scaling.
-
-
 
 
 📦 Installation
 Get the AI Trip Planner running locally in just a few steps!
 
 Clone the Repository  
-git clone https://github.com/khaireddine24/Ai-travel-planner.git
-cd ai-trip-planner
-
+git clone https://github.com/rehmankhan8476/MyTripAdvisor/edit/main
+cd FolderName
 
 Install Dependencies  
 npm install
 
-
 Set Up Environment VariablesCreate a .env file in the root directory and add the following:  
-VITE_FIREBASE_API_KEY=your_firebase_api_key
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 VITE_GEOAPIFY_API_KEY=your_geoapify_api_key
 VITE_UNSPLASH_API_KEY=your_unsplash_api_key
 VITE_GEMINI_API_KEY=your_gemini_api_key
+VITE_GOOGLE_AUTH_CLIENT_ID=your client Id
 
 Obtain these keys from the respective services (Firebase, Clerk, Geoapify, Unsplash, and Gemini).
 
 Run the App  
 npm run dev
 
-
 Open in BrowserVisit http://localhost:5173 to start planning your trip!
-
-
 
 🎯 Usage
 
@@ -102,9 +78,7 @@ Manage Your TripUse the interactive calendar to tweak your schedule, add activit
 Book with EaseAccess integrated booking options for flights, accommodations, and activities (coming soon!).
 
 
-
 🌟 Why Choose AI Trip Planner?
-
 Tailored to You: No two travelers are alike, and neither are our itineraries.  
 Effortless Planning: Save hours of research with AI-driven recommendations.  
 Inspiration at Every Step: Stunning visuals and unique suggestions spark wanderlust.  
@@ -126,12 +100,9 @@ Open a Pull Request.
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 🙌 Acknowledgments
-
 Gemini AI for powering intelligent recommendations.  
 Unsplash for breathtaking destination imagery.  
 Geoapify for seamless mapping and geolocation.  
 Clerk, Firebase, Vercel, and the open-source community for their amazing tools.
 
-
-🌍 Ready to explore the world? Start your journey with the AI Trip Planner today!
-
+🌍 Ready to explore the world? Start your journey with the MTA Today!
